@@ -23,6 +23,7 @@ Python + KNIME project analyzing fashion product reviews (sentiment) and product
 ![Sentiment Chart](data/sentiment_by_category.png)
 ![KNIME Workflow](screenshots/knime_workflow.png)
 ![KNIME Bar Chart](screenshots/knime_barchart.png)
+![KNIME Histogram](screenshots/knime_histogram.png)
 
 ## Files
 - `python/nlp_analysis.py` — Sentiment analysis + visualization
@@ -30,3 +31,10 @@ Python + KNIME project analyzing fashion product reviews (sentiment) and product
 - `python/combined_insights.py` — Combined summary
 - `knime/myntra_sentiment.knwf` — KNIME workflow
 - `data/` — Datasets and results
+
+## How to Run
+```bash
+python -m pip install pandas textblob matplotlib pillow requests
+python python/nlp_analysis.py
+python python/image_analysis.py
+python python/combined_insights.py
