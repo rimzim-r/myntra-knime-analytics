@@ -25,6 +25,11 @@ Python + KNIME project analyzing fashion product reviews (sentiment) and product
 - `python/combined_insights.py` — Combined summary
 - `data/` — Datasets and results
 
+## Screenshots
+![Sentiment Chart](data/sentiment_by_category.png)
+![KNIME Workflow](screenshots/knime_workflow.png)
+![KNIME Bar Chart](screenshots/knime_barchart.png)
+
 ## How to Run
 ```bash
 python -m pip install pandas textblob matplotlib pillow requests
